@@ -4,9 +4,12 @@
     grid-column: span 12;
     grid-row: 1;
     min-height: 100px;
-    background-color: $purple;
+    background-color: $senary;
     color: $black;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1;
+}
+
+.logo{
+    grid-column: 1/span 2;
 }

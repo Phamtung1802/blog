@@ -4,9 +4,8 @@
     grid-column: 1/ span 2;
     grid-row: 2;
     min-height: 1080px;
-    background-color: $red;
+    background-color: $secondary;
     color: $black;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1;
 }

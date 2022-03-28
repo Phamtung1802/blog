@@ -8,6 +8,7 @@ import { LeftSideComponent } from './template/left-side/left-side.component';
 import { RightSideComponent } from './template/right-side/right-side.component';
 import { MainBodyComponent } from './template/main-body/main-body.component';
 import { FooterComponent } from './template/footer/footer.component';
+import { LogoComponent } from './utilities/logo/logo.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FooterComponent } from './template/footer/footer.component';
     RightSideComponent,
     MainBodyComponent,
     FooterComponent,
+    LogoComponent,
   ],
   imports: [
     BrowserModule,
