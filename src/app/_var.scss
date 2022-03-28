@@ -1,0 +1,13 @@
+$red:    #F03210;
+$yellow:    #F0D565;
+$green:     #66D973;
+$blue:    #65A4F0;
+$purple:    #DE60E6;
+$white: #FFFFFF;
+$black: #000000;
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1;
+}

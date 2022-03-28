@@ -1,0 +1,12 @@
+@import '../../var';
+
+:host {
+    grid-column: 3/ span 8;
+    grid-row: 2;
+    min-height: 1080px;
+    background-color: $blue;
+    color: $black;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1;
+}

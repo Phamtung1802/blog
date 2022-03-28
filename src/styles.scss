@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~normalize.css';
+body {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    min-height: 1080px;
+}
