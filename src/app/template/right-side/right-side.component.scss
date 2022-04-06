@@ -1,11 +1,11 @@
 @import '../../var';
 
 :host {
-    grid-column: 9/ span 4;
+    grid-column: 10/ span 3;
     grid-row: 2;
     min-height: 1080px;
     background-color: $secondary;
     color: $black;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(12, 1fr);
 }

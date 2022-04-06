@@ -1,0 +1,10 @@
+@import '../../../var';
+
+
+:host {
+    height: 100%;
+    background-color: $quinary;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}

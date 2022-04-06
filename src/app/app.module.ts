@@ -9,6 +9,8 @@ import { RightSideComponent } from './template/right-side/right-side.component';
 import { MainBodyComponent } from './template/main-body/main-body.component';
 import { FooterComponent } from './template/footer/footer.component';
 import { LogoComponent } from './utilities/logo/logo.component';
+import { MenuLayoutComponent } from './utilities/top-menu/menu-layout/menu-layout.component';
+import { MenuButtonComponent } from './utilities/top-menu/menu-button/menu-button.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { LogoComponent } from './utilities/logo/logo.component';
     MainBodyComponent,
     FooterComponent,
     LogoComponent,
+    MenuLayoutComponent,
+    MenuButtonComponent,
   ],
   imports: [
     BrowserModule,
