@@ -1,12 +1,5 @@
-$primary:    #F03210;
-$secondary:    #F0D565;
-$tertiary:     #66D973;
-$quinary:    #65A4F0;
-$senary:    #DE60E6;
-$white: #FFFFFF;
-$black: #000000;
 
-.grid {
+.grid-layout {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1;

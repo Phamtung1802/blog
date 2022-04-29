@@ -1,8 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+
 @import '~normalize.css';
 body {
     display: inline-block;
-    height: 100%;
-    width: 100%;
-    min-height: 1080px;
+}
+:root{
+    --primary:#1066f0;
+    --secondary:#F0D565;
+    --tertiary:#66D973;
+    --white: #FFFFFF;
+    --black: #000000;
 }
