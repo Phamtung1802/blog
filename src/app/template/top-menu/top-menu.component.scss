@@ -1,6 +1,8 @@
 :host {
     display: flex;
     background-color: var(--primary);
+    grid-row: 1;
     grid-column: 1/13;
-    grid-row: inherit;
+    height: 7vh;
+    min-height: 30pt;
 }

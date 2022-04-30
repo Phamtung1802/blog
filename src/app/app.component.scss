@@ -3,7 +3,5 @@
 :host {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    min-height: 100vh;
     min-width: 100vw;
-    grid-template-rows: auto;
 }
